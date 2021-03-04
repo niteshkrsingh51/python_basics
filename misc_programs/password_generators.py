@@ -14,7 +14,7 @@ def password_generator(user_category):
         return new_password
     else:
         return False
-        
+
 #displaying the result
 user_category = input('Enter 1 for weak password or 2 for strong password: ')
 result = password_generator(user_category)
