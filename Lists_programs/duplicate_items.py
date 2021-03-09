@@ -1,4 +1,4 @@
-#function to eliminate the duplicate the values in the list
+#function to eliminate the duplicate values in the list
 def duplicate_items(input_list):
     new_list = []
     for x in input_list:
